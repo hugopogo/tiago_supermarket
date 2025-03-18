@@ -17,7 +17,7 @@ class ArUcoDetectionNode(Node):
 
         # le dictionnaire ArUco prédéfini
         self.aruco_dict = cv.aruco.getPredefinedDictionary(cv.aruco.DICT_4X4_50)
-        self.parameters = cv.aruco.DetectorParameters()
+        self.parameters = cv.aruco.DetectorParameters_create()
         self.get_logger().info("ArUco Detection Node initialized.")
 
     def image_callback(self, msg):
