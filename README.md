@@ -1,6 +1,6 @@
 # 🦾 Projet Tiago Supermarket  
 
-![Image du projet](/home/rosdev/ros2_ws/src/tiago_supermarket/images/tiago.png)
+(https://github.com/hugopogo/tiago_supermarket/blob/main/images/tiago.png)
 
 
 
