@@ -1,6 +1,7 @@
 # 🦾 Projet Tiago Supermarket  
 
-![Image du projet](./images/tiago.png)  
+![Image du projet](../../Pictures/tiago.png)
+
 
 ---
 
