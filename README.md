@@ -1,6 +1,6 @@
 # 🦾 Projet Tiago Supermarket  
 
-(https://github.com/hugopogo/tiago_supermarket/blob/main/images/tiago.png)
+![Image du projet](https://github.com/hugopogo/tiago_supermarket/blob/main/images/tiago.png)
 
 
 
