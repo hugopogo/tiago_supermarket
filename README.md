@@ -38,13 +38,13 @@ Les étapes prévues étaient :
 ✔️ Détection des canettes avec OpenCV  
 ✔️ Détection des marqueurs ArUco  
 ✔️ Déplacement et navigation autonome  
-✔️ Préparation du bras pour la préhension des objets  
+ 
 
 ---
 
 ## ❌ **Objectifs non réalisés / à améliorer** (par manque de temps)  
 
-❌ **Finalisation de la préhension des canettes**  
+❌ **Préparation du bras pour la préhension des objets**  
 ❌ **Optimisation du mouvement du bras pour éviter les collisions**  
 ❌ **Meilleure gestion des obstacles pendant la navigation**  
 ❌ **Ajout d'une détection dynamique des objets en mouvement**  
@@ -58,6 +58,7 @@ Les étapes prévues étaient :
    Si vous n'avez pas encore d'espace de travail ROS2, créez-en un :
 
    mkdir -p ~/ros2_ws/src
+   
    cd ~/ros2_ws
 
 2️⃣ **Cloner le dépôt dans le répertoire** :

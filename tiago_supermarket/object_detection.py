@@ -60,7 +60,7 @@ class CanDetectionNode(Node):
             cv2.drawContours(debug_frame, contours_green, -1, (0, 255, 0), 1)
             cv2.imshow("Contours Debug", debug_frame)
 
-            # Dessiner les rectangles seulement pour les gros objets
+            # Dessine les rectangles seulement pour les gros objets
             for contour in contours_red:
                 if cv2.contourArea(contour) > 100:  # Réduction du seuil
                     x, y, w, h = cv2.boundingRect(contour)
@@ -77,7 +77,7 @@ class CanDetectionNode(Node):
             cv2.imshow("Détection de canettes", frame)
             cv2.waitKey(1)
 
-            # Quitter proprement avec la touche 'q'
+            # Quitte proprement avec la touche 'q'
             if cv2.waitKey(10) & 0xFF == ord('q'):
                 self.get_logger().info("Fermeture demandée par l'utilisateur.")
                 cv2.destroyAllWindows()

@@ -26,7 +26,7 @@ class MotionControlNode(Node):
         twist.linear.x = speed
         self.publisher.publish(twist)
 
-    def stop(self):
+    def stop(self):                 #stop
         twist = Twist()
         self.publisher.publish(twist)
 
@@ -54,7 +54,7 @@ class MotionControlNode(Node):
             self.target_detected = True
 
             #  Seuil de distance (arrêt si assez proche)
-            if h > 175:  # Augmenter le seuil pour arrêter plus tôt
+            if h > 175:  # le seuil pour arrêter plus tôt
                 self.stop()
                 self.get_logger().info("📍 Arrêt devant la canette.")
     
