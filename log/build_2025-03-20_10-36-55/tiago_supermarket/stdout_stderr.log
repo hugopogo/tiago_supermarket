@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating tiago_supermarket.egg-info
+writing tiago_supermarket.egg-info/PKG-INFO
+writing dependency_links to tiago_supermarket.egg-info/dependency_links.txt
+writing entry points to tiago_supermarket.egg-info/entry_points.txt
+writing requirements to tiago_supermarket.egg-info/requires.txt
+writing top-level names to tiago_supermarket.egg-info/top_level.txt
+writing manifest file 'tiago_supermarket.egg-info/SOURCES.txt'
+reading manifest file 'tiago_supermarket.egg-info/SOURCES.txt'
+writing manifest file 'tiago_supermarket.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/python3.12/site-packages/tiago-supermarket.egg-link (link to .)
+Installing arm_control script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket
+Installing aruco script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket
+Installing motion_control script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket
+Installing object_detection script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket
+
+Installed /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket
+running symlink_data
+creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index
+creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index/resource_index
+creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/resource/tiago_supermarket -> /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/package.xml -> /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/tiago_supermarket
+creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/tiago_supermarket/launch
+symbolically linking /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/launch/tiago_task.launch.py -> /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/tiago_supermarket/launch

@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.003456] (tiago_supermarket) JobQueued: {'identifier': 'tiago_supermarket', 'dependencies': OrderedDict()}
+[0.005623] (tiago_supermarket) JobStarted: {'identifier': 'tiago_supermarket'}
+[0.098931] (-) TimerEvent: {}
+[0.200553] (-) TimerEvent: {}
+[0.302905] (-) TimerEvent: {}
+[0.404032] (-) TimerEvent: {}
+[0.505247] (-) TimerEvent: {}
+[0.605927] (-) TimerEvent: {}
+[0.706747] (-) TimerEvent: {}
+[0.807705] (-) TimerEvent: {}
+[0.909924] (-) TimerEvent: {}
+[1.010557] (-) TimerEvent: {}
+[1.111895] (-) TimerEvent: {}
+[1.213290] (-) TimerEvent: {}
+[1.316482] (-) TimerEvent: {}
+[1.418757] (-) TimerEvent: {}
+[1.522492] (-) TimerEvent: {}
+[1.627940] (-) TimerEvent: {}
+[1.730909] (-) TimerEvent: {}
+[1.832105] (-) TimerEvent: {}
+[1.935471] (-) TimerEvent: {}
+[2.037725] (-) TimerEvent: {}
+[2.140304] (-) TimerEvent: {}
+[2.244207] (-) TimerEvent: {}
+[2.344674] (-) TimerEvent: {}
+[2.445236] (-) TimerEvent: {}
+[2.547272] (-) TimerEvent: {}
+[2.647601] (-) TimerEvent: {}
+[2.747992] (-) TimerEvent: {}
+[2.849161] (-) TimerEvent: {}
+[2.950485] (-) TimerEvent: {}
+[3.051833] (-) TimerEvent: {}
+[3.153237] (-) TimerEvent: {}
+[3.254646] (-) TimerEvent: {}
+[3.355752] (-) TimerEvent: {}
+[3.456350] (-) TimerEvent: {}
+[3.557339] (-) TimerEvent: {}
+[3.658348] (-) TimerEvent: {}
+[3.759773] (-) TimerEvent: {}
+[3.860718] (-) TimerEvent: {}
+[3.962344] (-) TimerEvent: {}
+[4.063925] (-) TimerEvent: {}
+[4.166234] (-) TimerEvent: {}
+[4.266992] (-) TimerEvent: {}
+[4.368305] (-) TimerEvent: {}
+[4.468989] (-) TimerEvent: {}
+[4.570008] (-) TimerEvent: {}
+[4.672168] (-) TimerEvent: {}
+[4.772691] (-) TimerEvent: {}
+[4.874271] (-) TimerEvent: {}
+[4.974858] (-) TimerEvent: {}
+[5.031920] (tiago_supermarket) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket', 'env': {'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'hugo', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/rosdev/tiago_ws/install/play_motion2/lib:/home/rosdev/tiago_ws/install/play_motion2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/helpers/browser.sh', 'HOME': '/home/rosdev', 'OLDPWD': '/home/rosdev/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-dcbe653a-ddd7-4ca6-ad14-f0a98ffb5898.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-501ead5e-b3fc-487f-b4f9-b0ddde7345e5.sock', 'COLCON_PREFIX_PATH': '/home/rosdev/ros2_ws/install:/home/rosdev/tiago_ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-1ae69793-8951-4478-9623-d6e07d1f3f54.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-1ae69793-8951-4478-9623-d6e07d1f3f54.sock","/home/rosdev/.gnupg/S.gpg-agent"]', 'DISPLAY': 'unix:0.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-871cc02382d1d530.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-16c8f9fccb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-1ae69793-8951-4478-9623-d6e07d1f3f54.sock', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/rosdev/ros2_ws/install/tiago_supermarket:/home/rosdev/ros2_ws/install/pal_maps:/home/rosdev/ros2_ws/install/br2_gazebo_worlds:/home/rosdev/tiago_ws/install/tiago_simulation:/home/rosdev/tiago_ws/install/tiago_robot:/home/rosdev/tiago_ws/install/tiago_navigation:/home/rosdev/tiago_ws/install/tiago_gazebo:/home/rosdev/tiago_ws/install/tiago_moveit_config:/home/rosdev/tiago_ws/install/tiago_2dnav:/home/rosdev/tiago_ws/install/tiago_laser_sensors:/home/rosdev/tiago_ws/install/tiago_harmonic:/home/rosdev/tiago_ws/install/tiago_bringup:/home/rosdev/tiago_ws/install/tiago_description:/home/rosdev/tiago_ws/install/tiago_controller_configuration:/home/rosdev/tiago_ws/install/pmb2_robot:/home/rosdev/tiago_ws/install/pmb2_navigation:/home/rosdev/tiago_ws/install/pmb2_2dnav:/home/rosdev/tiago_ws/install/pmb2_laser_sensors:/home/rosdev/tiago_ws/install/pmb2_bringup:/home/rosdev/tiago_ws/install/pmb2_description:/home/rosdev/tiago_ws/install/pmb2_controller_configuration:/home/rosdev/tiago_ws/install/play_motion2:/home/rosdev/tiago_ws/install/play_motion2_msgs:/home/rosdev/tiago_ws/install/pal_hey5:/home/rosdev/tiago_ws/install/pal_hey5_description:/home/rosdev/tiago_ws/install/pal_gripper_simulation:/home/rosdev/tiago_ws/install/pal_gripper:/home/rosdev/tiago_ws/install/pal_gripper_description:/home/rosdev/tiago_ws/install/omni_base_robot:/home/rosdev/tiago_ws/install/omni_base_bringup:/home/rosdev/tiago_ws/install/omni_base_description:/home/rosdev/tiago_ws/install/pal_urdf_utils:/home/rosdev/tiago_ws/install/pal_robotiq_gripper:/home/rosdev/tiago_ws/install/pal_robotiq_description:/home/rosdev/tiago_ws/install/pal_robotiq_controller_configuration:/home/rosdev/tiago_ws/install/pal_hey5_controller_configuration:/home/rosdev/tiago_ws/install/pal_gripper_controller_configuration:/home/rosdev/tiago_ws/install/omni_base_controller_configuration:/home/rosdev/tiago_ws/install/launch_pal:/home/rosdev/tiago_ws/install/br2_gazebo_worlds:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/python3.12/site-packages:/home/rosdev/ros2_ws/build/tiago_supermarket:/home/rosdev/ros2_ws/install/tiago_supermarket/lib/python3.12/site-packages:/home/rosdev/tiago_ws/install/tiago_description/lib/python3.12/site-packages:/home/rosdev/tiago_ws/install/pmb2_description/lib/python3.12/site-packages:/home/rosdev/tiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:/home/rosdev/tiago_ws/install/omni_base_description/lib/python3.12/site-packages:/home/rosdev/tiago_ws/build/launch_pal:/home/rosdev/tiago_ws/install/launch_pal/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rosdev/ros2_ws/install/pal_maps:/home/rosdev/ros2_ws/install/br2_gazebo_worlds:/home/rosdev/tiago_ws/install/tiago_simulation:/home/rosdev/tiago_ws/install/tiago_robot:/home/rosdev/tiago_ws/install/tiago_navigation:/home/rosdev/tiago_ws/install/tiago_gazebo:/home/rosdev/tiago_ws/install/tiago_moveit_config:/home/rosdev/tiago_ws/install/tiago_2dnav:/home/rosdev/tiago_ws/install/tiago_laser_sensors:/home/rosdev/tiago_ws/install/tiago_harmonic:/home/rosdev/tiago_ws/install/tiago_bringup:/home/rosdev/tiago_ws/install/tiago_description:/home/rosdev/tiago_ws/install/tiago_controller_configuration:/home/rosdev/tiago_ws/install/pmb2_robot:/home/rosdev/tiago_ws/install/pmb2_navigation:/home/rosdev/tiago_ws/install/pmb2_2dnav:/home/rosdev/tiago_ws/install/pmb2_laser_sensors:/home/rosdev/tiago_ws/install/pmb2_bringup:/home/rosdev/tiago_ws/install/pmb2_description:/home/rosdev/tiago_ws/install/pmb2_controller_configuration:/home/rosdev/tiago_ws/install/play_motion2:/home/rosdev/tiago_ws/install/play_motion2_msgs:/home/rosdev/tiago_ws/install/pal_hey5:/home/rosdev/tiago_ws/install/pal_hey5_description:/home/rosdev/tiago_ws/install/pal_gripper_simulation:/home/rosdev/tiago_ws/install/pal_gripper:/home/rosdev/tiago_ws/install/pal_gripper_description:/home/rosdev/tiago_ws/install/omni_base_robot:/home/rosdev/tiago_ws/install/omni_base_bringup:/home/rosdev/tiago_ws/install/omni_base_description:/home/rosdev/tiago_ws/install/pal_urdf_utils:/home/rosdev/tiago_ws/install/pal_robotiq_gripper:/home/rosdev/tiago_ws/install/pal_robotiq_description:/home/rosdev/tiago_ws/install/pal_robotiq_controller_configuration:/home/rosdev/tiago_ws/install/pal_hey5_controller_configuration:/home/rosdev/tiago_ws/install/pal_gripper_controller_configuration:/home/rosdev/tiago_ws/install/omni_base_controller_configuration:/home/rosdev/tiago_ws/install/br2_gazebo_worlds:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.075335] (-) TimerEvent: {}
+[5.177377] (-) TimerEvent: {}
+[5.280361] (-) TimerEvent: {}
+[5.381938] (-) TimerEvent: {}
+[5.483588] (-) TimerEvent: {}
+[5.586466] (-) TimerEvent: {}
+[5.687090] (-) TimerEvent: {}
+[5.787611] (-) TimerEvent: {}
+[5.890239] (-) TimerEvent: {}
+[5.991229] (-) TimerEvent: {}
+[6.092751] (-) TimerEvent: {}
+[6.194489] (-) TimerEvent: {}
+[6.296582] (-) TimerEvent: {}
+[6.398232] (-) TimerEvent: {}
+[6.498749] (-) TimerEvent: {}
+[6.505159] (tiago_supermarket) StdoutLine: {'line': b'running develop\n'}
+[6.600871] (-) TimerEvent: {}
+[6.703934] (-) TimerEvent: {}
+[6.806206] (-) TimerEvent: {}
+[6.919688] (-) TimerEvent: {}
+[7.020782] (-) TimerEvent: {}
+[7.122856] (-) TimerEvent: {}
+[7.225174] (-) TimerEvent: {}
+[7.326356] (-) TimerEvent: {}
+[7.353879] (tiago_supermarket) StdoutLine: {'line': b'running egg_info\n'}
+[7.354573] (tiago_supermarket) StdoutLine: {'line': b'creating tiago_supermarket.egg-info\n'}
+[7.427349] (-) TimerEvent: {}
+[7.437977] (tiago_supermarket) StdoutLine: {'line': b'writing tiago_supermarket.egg-info/PKG-INFO\n'}
+[7.439164] (tiago_supermarket) StdoutLine: {'line': b'writing dependency_links to tiago_supermarket.egg-info/dependency_links.txt\n'}
+[7.440397] (tiago_supermarket) StdoutLine: {'line': b'writing entry points to tiago_supermarket.egg-info/entry_points.txt\n'}
+[7.441251] (tiago_supermarket) StdoutLine: {'line': b'writing requirements to tiago_supermarket.egg-info/requires.txt\n'}
+[7.441949] (tiago_supermarket) StdoutLine: {'line': b'writing top-level names to tiago_supermarket.egg-info/top_level.txt\n'}
+[7.444358] (tiago_supermarket) StdoutLine: {'line': b"writing manifest file 'tiago_supermarket.egg-info/SOURCES.txt'\n"}
+[7.527776] (-) TimerEvent: {}
+[7.619364] (tiago_supermarket) StdoutLine: {'line': b"reading manifest file 'tiago_supermarket.egg-info/SOURCES.txt'\n"}
+[7.621437] (tiago_supermarket) StdoutLine: {'line': b"writing manifest file 'tiago_supermarket.egg-info/SOURCES.txt'\n"}
+[7.627995] (-) TimerEvent: {}
+[7.717272] (tiago_supermarket) StdoutLine: {'line': b'running build_ext\n'}
+[7.719380] (tiago_supermarket) StdoutLine: {'line': b'Creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/python3.12/site-packages/tiago-supermarket.egg-link (link to .)\n'}
+[7.726199] (tiago_supermarket) StdoutLine: {'line': b'Installing arm_control script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket\n'}
+[7.727384] (tiago_supermarket) StdoutLine: {'line': b'Installing aruco script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket\n'}
+[7.728104] (-) TimerEvent: {}
+[7.730120] (tiago_supermarket) StdoutLine: {'line': b'Installing motion_control script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket\n'}
+[7.730595] (tiago_supermarket) StdoutLine: {'line': b'Installing object_detection script to /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/lib/tiago_supermarket\n'}
+[7.733434] (tiago_supermarket) StdoutLine: {'line': b'\n'}
+[7.733776] (tiago_supermarket) StdoutLine: {'line': b'Installed /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket\n'}
+[7.733937] (tiago_supermarket) StdoutLine: {'line': b'running symlink_data\n'}
+[7.740978] (tiago_supermarket) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index\n'}
+[7.741421] (tiago_supermarket) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index/resource_index\n'}
+[7.741596] (tiago_supermarket) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index/resource_index/packages\n'}
+[7.741744] (tiago_supermarket) StdoutLine: {'line': b'symbolically linking /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/resource/tiago_supermarket -> /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/ament_index/resource_index/packages\n'}
+[7.741888] (tiago_supermarket) StdoutLine: {'line': b'symbolically linking /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/package.xml -> /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/tiago_supermarket\n'}
+[7.742049] (tiago_supermarket) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/tiago_supermarket/launch\n'}
+[7.752659] (tiago_supermarket) StdoutLine: {'line': b'symbolically linking /home/rosdev/ros2_ws/src/tiago_supermarket/build/tiago_supermarket/launch/tiago_task.launch.py -> /home/rosdev/ros2_ws/src/tiago_supermarket/install/tiago_supermarket/share/tiago_supermarket/launch\n'}
+[7.828803] (-) TimerEvent: {}
+[7.929785] (-) TimerEvent: {}
+[7.983172] (tiago_supermarket) CommandEnded: {'returncode': 0}
+[8.021623] (tiago_supermarket) JobEnded: {'identifier': 'tiago_supermarket', 'rc': 0}
+[8.023616] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+[console_scripts]
+arm_control = tiago_supermarket.arm_control:main
+aruco = tiago_supermarket.aruco:main
+motion_control = tiago_supermarket.motion_control:main
+object_detection = tiago_supermarket.object_detection:main

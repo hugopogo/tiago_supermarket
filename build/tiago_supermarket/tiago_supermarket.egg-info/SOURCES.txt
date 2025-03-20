@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/tiago_task.launch.py
+resource/tiago_supermarket
+tiago_supermarket/__init__.py
+tiago_supermarket/arm_control.py
+tiago_supermarket/aruco.py
+tiago_supermarket/motion_control.py
+tiago_supermarket/object_detection.py
+tiago_supermarket.egg-info/PKG-INFO
+tiago_supermarket.egg-info/SOURCES.txt
+tiago_supermarket.egg-info/dependency_links.txt
+tiago_supermarket.egg-info/entry_points.txt
+tiago_supermarket.egg-info/requires.txt
+tiago_supermarket.egg-info/top_level.txt
+tiago_supermarket.egg-info/zip-safe
