@@ -39,7 +39,7 @@ class MotionControlNode(Node):
         frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding="bgr8")
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-        # 🔴 Détection de la canette rouge
+        # 🔴 Détection de la canette rouge (pour l'instant)
         red_lower1, red_upper1 = np.array([0, 100, 50]), np.array([10, 255, 255])
         red_lower2, red_upper2 = np.array([170, 100, 50]), np.array([180, 255, 255])
         mask_red = cv2.inRange(hsv, red_lower1, red_upper1) + cv2.inRange(hsv, red_lower2, red_upper2)
@@ -53,18 +53,18 @@ class MotionControlNode(Node):
             self.target_position = (x + w // 2, y + h // 2)
             self.target_detected = True
 
-            # 📏 Seuil de distance (arrêt si assez proche)
+            #  Seuil de distance (arrêt si assez proche)
             if h > 175:  # Augmenter le seuil pour arrêter plus tôt
                 self.stop()
                 self.get_logger().info("📍 Arrêt devant la canette.")
-                # Logique de saisie de la canette ici
+    
             else:
                 # la direction en fonction de la position de la canette
                 frame_center_x = frame.shape[1] // 2
                 if self.target_position[0] < frame_center_x - 20:
-                    self.rotate(angular_speed=0.3)  # Tourner à gauche
+                    self.rotate(angular_speed=0.3)  # Tourne à gauche
                 elif self.target_position[0] > frame_center_x + 20:
-                    self.rotate(angular_speed=-0.3)  # Tourner à droite
+                    self.rotate(angular_speed=-0.3)  # Tourne à droite
                 else:
                     self.move_forward(speed=0.3)
 
