@@ -53,6 +53,21 @@ Les étapes prévues étaient :
 
 ## 📌 Compilation et configuration du workspace
 
+1️⃣ **Créer un espace de travail ROS2** :
+
+   Si vous n'avez pas encore d'espace de travail ROS2, créez-en un :
+
+   mkdir -p ~/ros2_ws/src
+   cd ~/ros2_ws
+
+2️⃣ **Cloner le dépôt dans le répertoire** :
+
+cd src
+git clone https://github.com/hugopogo/tiago_supermarket.git
+cd ..
+
+3️⃣ **Build et sourcer le projet** :
+
 cd ~/ros2_ws
 colcon build
 source install/setup.bash

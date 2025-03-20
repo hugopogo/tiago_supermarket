@@ -21,7 +21,7 @@ class MotionControlNode(Node):
         self.target_position = None
         self.get_logger().info("Motion Control Node initialized.")
 
-    def move_forward(self, speed=1.0):  # Réduire la vitesse pour plus de contrôle
+    def move_forward(self, speed=1.0):  # la vitesse pour plus de contrôle
         twist = Twist()
         twist.linear.x = speed
         self.publisher.publish(twist)
@@ -30,7 +30,7 @@ class MotionControlNode(Node):
         twist = Twist()
         self.publisher.publish(twist)
 
-    def rotate(self, angular_speed=0.3):  # Réduire la vitesse angulaire pour plus de contrôle
+    def rotate(self, angular_speed=0.3):  # la vitesse angulaire pour plus de contrôle
         twist = Twist()
         twist.angular.z = angular_speed
         self.publisher.publish(twist)
@@ -59,7 +59,7 @@ class MotionControlNode(Node):
                 self.get_logger().info("📍 Arrêt devant la canette.")
                 # Logique de saisie de la canette ici
             else:
-                # Ajuster la direction en fonction de la position de la canette
+                # la direction en fonction de la position de la canette
                 frame_center_x = frame.shape[1] // 2
                 if self.target_position[0] < frame_center_x - 20:
                     self.rotate(angular_speed=0.3)  # Tourner à gauche
