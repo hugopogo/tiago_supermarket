@@ -63,27 +63,32 @@ Les étapes prévues étaient :
 2️⃣ **Cloner le dépôt dans le répertoire** :
 
 cd src
+
 git clone https://github.com/hugopogo/tiago_supermarket.git
+
 cd ..
 
 3️⃣ **Build et sourcer le projet** :
 
 cd ~/ros2_ws
+
 colcon build
+
 source install/setup.bash
 
 ## 🎯 Lancement du projet (3 terminaux nécessaires)
 
 Ouvre 3 terminaux et exécute les commandes suivantes :
-1️⃣ Lancer la tâche principale
+
+1️⃣ **Lancer la tâche principale**
 
 ros2 launch tiago_supermarket tiago_task.launch.py
 
-2️⃣ Démarrer la simulation Tiago avec le supermarché
+2️⃣ **Démarrer la simulation Tiago avec le supermarché**
 
 ros2 launch tiago_gazebo tiago_gazebo.launch.py is_public_sim:=True world_name:=supermarket
 
-3️⃣ Activer MoveIt! pour la manipulation
+3️⃣ **Activer MoveIt! pour la manipulation**
 
 ros2 launch tiago_moveit_config moveit_rviz.launch.py
 
